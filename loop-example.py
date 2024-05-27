@@ -7,6 +7,8 @@ def set_of_numbers(num_array):
         print("Number is: " + str(num_array[index]))
         index += 1
 
+#This while loop maybe inefficient 
+
 if __name__ == "__main__":
     numbers = [1,2,3,4,5]
     set_of_numbers(numbers)
